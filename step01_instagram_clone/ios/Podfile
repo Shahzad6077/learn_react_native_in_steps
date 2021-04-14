@@ -12,6 +12,10 @@ target 'step01_instagram_clone' do
     :hermes_enabled => false
   )
 
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'step01_instagram_cloneTests' do
     inherit! :complete
     # Pods for testing
