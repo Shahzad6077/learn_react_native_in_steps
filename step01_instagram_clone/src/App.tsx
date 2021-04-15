@@ -7,19 +7,18 @@
  *
  * @format
  */
-
+import 'react-native-gesture-handler';
 import React from 'react';
-import {SafeAreaView, StatusBar, Text, View} from 'react-native';
-import HomeScreenComp from './Screens/HomeScreen/index';
+import {SafeAreaView, StatusBar} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import HomBottomTab from './NavigationStuff/HomBottomTab';
 
 const App = () => {
   return (
-    <>
+    <NavigationContainer>
       <StatusBar barStyle={'dark-content'} />
-      <SafeAreaView style={{height: '100%'}}>
-        <HomeScreenComp />
-      </SafeAreaView>
-    </>
+      <HomBottomTab />
+    </NavigationContainer>
   );
 };
 

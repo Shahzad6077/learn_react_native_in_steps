@@ -1,11 +1,13 @@
-import React from 'react';
-import {Text, View} from 'react-native';
+import React, {useEffect} from 'react';
+import {View} from 'react-native';
 import Feed from '../../Components/Feed';
 
 const HomeScreen = () => {
+  useEffect(() => {
+    console.warn('Baby');
+  });
   return (
     <View style={{flex: 1}}>
-      <Text style={{fontSize: 18, textAlign: 'center'}}>Instagram</Text>
       <Feed />
     </View>
   );

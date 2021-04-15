@@ -28,6 +28,8 @@
 		8CD1154D5403498A823A586F /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B694CD295790446696D683B5 /* Octicons.ttf */; };
 		31E6B793F8A248DA938CF744 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24946FBECD5440B3BC4208D8 /* SimpleLineIcons.ttf */; };
 		2BB529DAD856491292A16610 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6847453F3FE543EEA1608C04 /* Zocial.ttf */; };
+		FC144584F7674CA696D49D6C /* Fontspring-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F364F973D2CC4DB098DD2A29 /* Fontspring-Bold.otf */; };
+		382FEB1C27CC4EADA197AB89 /* Fontspring-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0FA26AF7AB446F96350018 /* Fontspring-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		B694CD295790446696D683B5 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		24946FBECD5440B3BC4208D8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		6847453F3FE543EEA1608C04 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F364F973D2CC4DB098DD2A29 /* Fontspring-Bold.otf */ = {isa = PBXFileReference; name = "Fontspring-Bold.otf"; path = "../src/assets/fonts/Fontspring-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8B0FA26AF7AB446F96350018 /* Fontspring-Regular.otf */ = {isa = PBXFileReference; name = "Fontspring-Regular.otf"; path = "../src/assets/fonts/Fontspring-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 				B694CD295790446696D683B5 /* Octicons.ttf */,
 				24946FBECD5440B3BC4208D8 /* SimpleLineIcons.ttf */,
 				6847453F3FE543EEA1608C04 /* Zocial.ttf */,
+				F364F973D2CC4DB098DD2A29 /* Fontspring-Bold.otf */,
+				8B0FA26AF7AB446F96350018 /* Fontspring-Regular.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -287,6 +293,8 @@
 				8CD1154D5403498A823A586F /* Octicons.ttf in Resources */,
 				31E6B793F8A248DA938CF744 /* SimpleLineIcons.ttf in Resources */,
 				2BB529DAD856491292A16610 /* Zocial.ttf in Resources */,
+				FC144584F7674CA696D49D6C /* Fontspring-Bold.otf in Resources */,
+				382FEB1C27CC4EADA197AB89 /* Fontspring-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
